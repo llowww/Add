@@ -472,24 +472,23 @@
 	margin-top: 30px;
 	margin-left: -350px;
 	position: absolute;
-	display: none;
-	z-index: 1;
+	display: none; 
+	z-index: 999;
 }
 
-.gwl_none img {
-	margin-top: 50px;
-	margin-left: 100px;
-}
-
-.gwl_none p {
-	color: #000000;
-	font-size: 15px;
-	margin-top: 300px;
-	margin-left: 110px;
-}
-
-.gwl:hover .gwl_none {
-	display: block;
+.gwl i{
+	position: absolute;	
+	top: -16px;
+	left: 15px;
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	background: red;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+	font-style: normal;
+	font-size: 14px;
 }
 
 
@@ -565,7 +564,7 @@
 	width: 100%;
 	height: 400px;
 	background: #f8f8f8;
-	z-index: 1;
+	z-index: 999;
 	display: none;
 }
 
@@ -664,7 +663,7 @@
 	width: 100%;
 	height: 400px;
 	background: #f8f8f8;
-	z-index: 1;
+	z-index: 999;
 	display: none;
 }
 
@@ -764,7 +763,7 @@
 	width: 100%;
 	height: 400px;
 	background: #f8f8f8;
-	z-index: 1;
+	z-index: 999;
 	display: none;
 }
 
@@ -864,7 +863,7 @@
 	width: 100%;
 	height: 400px;
 	background: #f8f8f8;
-	z-index: 1;
+	z-index: 999;
 	display: none;
 }
 
@@ -963,6 +962,7 @@
 	float: left;
 	width: 100%;
 	min-height: 2000px;
+	
 }
 
 .lbt {
@@ -970,12 +970,22 @@
 	height: 510px;
 	margin: 0 auto;
 	margin-top: 5px;
+	position: relative;
 }
 
 .lbt_top {
 	float: left;
 	width: 1140px;
 	height: 445px;
+	
+}
+
+.lbt_top li a{
+	display: inline-block;
+	width: 1140px;
+	height:445px;
+	background: url(../img/SP_tp1.jpg);
+	background-size: 1140px 445px;
 }
 
 .lbt_bottom {
@@ -994,22 +1004,55 @@
 	margin-left: 6.5px;
 }
 
-.lbt_bottom li a {
+ .lbt_bottom li a {
 	position: absolute;
 	display: inline-block;
 	width: 135px;
 	height: 55px;
 	background-color: #000;
-	opacity: 0.3;
+	 opacity: 0.3; 
+} 
+
+.fx{
+	display: block;
 }
 
-.lbt_bottom li:hover a {
+.fx .lbt_left{
+	left: 0;
 	position: absolute;
-	display: inline-block;
-	width: 135px;
-	height: 55px;
-	background-color: #000;
-	opacity: 0;
+    top: 210px;
+    margin: -30px 0 0;
+    width: 60px;
+    height: 60px;
+    line-height: 56px;
+    text-align: center;
+    z-index: 1;
+    background: #fff;
+    opacity: 0.5;
+	text-decoration: none;
+	font-size: 32px;
+	color: #59585a;
+}
+
+.fx .lbt_right{
+	right: 0;
+	position: absolute;
+    top: 210px;
+    margin: -30px 0 0;
+    width: 60px;
+    height: 60px;
+    line-height: 56px;
+    text-align: center;
+    z-index: 1;
+    background: #fff;
+    opacity: 0.5;
+	text-decoration: none;
+	font-size: 32px;
+	color: #59585a;
+}
+
+.fx a:hover{
+	opacity: 0.8;
 }
 
 .sect_1 {

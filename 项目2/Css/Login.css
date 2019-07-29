@@ -241,6 +241,16 @@
 	margin: 15px 0;
 	font-size: 15px;
 	text-indent: 1em;
+	position: relative;	
+}
+
+#em_hm_ts{
+	position: absolute;
+	top: 310px;
+	right: 70px;
+	font-size: 13px;
+	color: red;
+	
 }
 
 .yz_tp {
@@ -272,6 +282,7 @@
 	border: 1px solid #e0e0e0;
 	padding: 7px 0;
 	margin-right: 5.5px;
+	cursor: pointer;
 }
 
 .d_l {
@@ -293,6 +304,10 @@
 	border-radius: 2px;
 	cursor: pointer;
 	font-size: 18px;
+}
+
+.d_l span:hover{
+	opacity: 0.7;
 }
 
 .qr_dl {

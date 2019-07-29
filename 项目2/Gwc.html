@@ -2,12 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>用户登录</title>
-		<link rel="stylesheet" href="Css/global.css" type="text/css">
-		<link rel="stylesheet" href="Css/Login.css" type="text/css">
+		<title></title>
+		<link rel="stylesheet" href="Css/global.css">
+		<link rel="stylesheet" href="Css/Gwc.css">
 	</head>
-	<script type="text/javascript" src="Js/jquery-1.12.4.js"></script>
-	<script type="text/javascript" src="Js/new.js"></script>
 	<body>
 		<div class="main">
 			<header class="header">
@@ -50,91 +48,163 @@
 					</ul>
 				</div>
 			</header>
-
 			<div class="xi"></div>
-			<section class="section">
-				<div class="section_top">
-					<i>为保障账户安全与正常使用，依《网络安全法》相关要求，会员账号需绑定手机号。</i><span>如您尚未绑定手机号，请尽快完成，</span><i>感谢您对Yoho!Buy有货的理解与支持！</i>
-				</div>
 
-				<div class="section_z">
-					<div class="section_z_left">
-						<a href="#">
-							<img src="img/dl_tp1.jpg">
-						</a>
+			<section class="zhuti">
+				<div class="gwc_lct">
+					<div class="gwc_lct_left">
+						<i class="gwc_tp"></i>
 					</div>
 
-					<div class="section_z_right">
-						<div class="dlu_k">
-							<div class="dlu_left">
-								<h2>会员登录</h2>
-							</div>
-							<div class="dlu_right">
-								<select>
-									<option value="#" selected="selected">中国 +86</option>
-									<option value="#">澳大利亚 +61</option>
-									<option value="#">加拿大 +1</option>
-									<option value="#">马来西亚 +60</option>
-									<option value="#">美国 +1</option>
-									<option value="#">日本 +81</option>
-									<option value="#">新加坡 +65</option>
-									<option value="#">英国 +44</option>
-									<option value="#">中国澳门 +853</option>
-									<option value="#">中国台湾 +886</option>
-									<option value="#">中国香港 +852</option>
-								</select>														
-							</div>
-							<div class="input">
-								<form action="#" method="get">
-									<dl>
-										<dd><input type="text" placeholder="邮箱/手机号码" id="em_hm">
-										<span id="em_hm_ts"></span>
-										</dd>
-										<dd><input type="password" placeholder="密码" id="password"></dd>
-									</dl>			
-								</form>
-							
-							</div>
+					<div class="gwc_lct_right">
+						<ul>
+							<li>
+								查看购物车
+								<i class="kais"></i>
+							</li>
 
-							<div class="yz_tp">
-								<span>请将下列图片点击翻转至正确方向</span>
-								<a href="#">换一批</a>
+							<li>
+								填写订单
+								<i class="ddai"></i>
+							</li>
 
-								<ul>
-									<li><img src="img/jt_tp1.png" width="60px" height="50px"></li>
-									<li><img src="img/jt_tp2.png" width="60px" height="50px"></li>
-									<li><img src="img/jt_tp3.png" width="60px" height="50px"></li>
-									<li><img src="img/jt_tp4.png" width="60px" height="50px"></li>
-								</ul>
-							</div>
+							<li>
+								付款，完成购买
+								<i class="ddai2"></i>
+							</li>
+						</ul>
+					</div>
+				</div>
 
+				<div class="gwc_bf">
+					<div class="gwc_bt">
+						<div class="gwc_bt_snbj">
+							<input type="checkbox" class="checkbox">
 
-							<div class="d_l">
-								<span>登 录</span>
-							</div>
-
-							<div class="qr_dl">
-								<i class="check"></i>
-								<span>记住登录状态</span>
-								<a href="#">忘记密码?</a>
-								<span>|</span>
-								<a href="#">快速注册</a>
-
-								<a href="#"><img src="img/tp38.gif" width="30px" height="30px"></a>
-								<a href="#"><img src="img/tp39.gif" width="30px" height="30px"></a>
-								<a href="#"><img src="img/tp40.gif" width="30px" height="30px"></a>
-							</div>
-
-
-
+							<p>全选</p>
+							<p>商品信息</p>
+							<p>单价</p>
+							<p>数量</p>
+							<p>小计</p>
+							<p>操作</p>
 						</div>
+					</div>
+
+					<div class="cdan">
+						<input type="checkbox" class="checkbox2">
+
+						<p>普通商品</p>
+						<p>再买¥299.00即可免运费</p>
+						<span>去凑单 &gt;</span>
+					</div>
+
+					<div class="zko">
+						<p>折扣</p>
+						<p>再购<span>2件</span>立享<span>2件</span>7折</p>
+						<span class="qc_d">去凑单 &gt;</span>
+					</div>
+
+					<div class="gwc_sp">
+						<ul class="gwc_sp1">
+							<li class="gwc_sp_li">
+								<input type="checkbox" class="checkbox3">
+								<div class="sp1">
+									<img src="img/tp87.jpg" width="64px" height="85px">
+									<p class="yir"><a href="#">FOOT INDUSTRY 织带拼接运动鞋</a></p>
+									<p class="xux">颜色：绿色 尺码：39码</p>
+								</div>
+								<div class="jiage">
+									￥<span class="price">738</span>
+								</div>
+
+								<div class="cartList" id="cartList">
+									<ul>
+										<li><input type="button" name="minus" value="-"><input type="text" name="amount" value="1" class="shul"
+											 readonly="readonly"><input type="button" name="plus" value="+"></li>
+
+									</ul>
+								</div>
+
+								<div class="jiage2">
+									<em>￥</em>
+									<span class="price2"></span>
+								</div>
+
+								<div class="remove_sc">
+									<p><a href="#">删除</a></p>
+									<p><a href="#">移入收藏</a></p>
+								</div>
+
+
+							</li>
+
+
+							<li class="gwc_sp_li">
+								<input type="checkbox" class="checkbox3">
+								<div class="sp1">
+									<img src="img/tp90.jpg" width="64px" height="85px">
+									<p class="yir"><a href="#">Genanx 【N次元觉醒】撞色满版经典蜘蛛网印花OVERSIZE太空棉T恤</a></p>
+									<p class="xux">颜色：白色 尺码：XL</p>
+								</div>
+								<div class="jiage">
+									￥<span class="price">199</span>
+								</div>
+
+								<div class="cartList" id="cartList">
+									<ul>
+										<li><input type="button" name="minus" value="-"><input type="text" name="amount" value="1" class="shul"
+											 readonly="readonly"><input type="button" name="plus" value="+"></li>
+
+									</ul>
+								</div>
+
+								<div class="jiage2">
+									<em>￥</em>
+									<span class="price2"></span>
+								</div>
+
+								<div class="remove_sc">
+									<p><a href="#">删除</a></p>
+									<p><a href="#">移入收藏</a></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="jies">
+					<input type="checkbox" class="checkbox4">
+
+					<div class="koj">
+						<span>全选</span>
+						<p id="del">删除选中商品</p>
+						<p>移入收藏夹</p>
+						<p>清空失效商品</p>
+
+						<p>已选商品<i id="sl"></i>件</p>
+					</div>
+
+
+
+					<div class="yf_je">
+						<p>应付金额（不含邮费）：
+							￥<i id="totalPrice"></i>
+
+						</p>
+						<p>活动优惠：¥ 0.00</p>
 
 					</div>
 
+
+						<a href="#" class="q_jis">去结算</a>
+
+
+
 				</div>
+
+
 
 			</section>
-
 			<footer class="footer">
 				<div class="wbu">
 					<div class="wbu_top">
@@ -259,15 +329,15 @@
 							</div>
 
 							<div class="wbu_bo">
-								<span>CopyRight © 2007-2019 南京新与力文化传播有限公司 苏ICP备09011225号 NewPower Co. 版权所有 江苏省南京市建邺区嘉陵江东街18号南京国家广告产业园5栋17，18楼 025-87781000</span>
+								<span>CopyRight © 2007-2019 南京新与力文化传播有限公司 苏ICP备09011225号 NewPower Co. 版权所有 江苏省南京市建邺区嘉陵江东街18号南京国家广告产业园5栋17，18楼
+									025-87781000</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</footer>
 		</div>
-
+		<script type="text/javascript" src="Js/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="Js/Gwc.js"></script>
 	</body>
-	<script type="text/javascript" src="Js/jquery-1.12.4.js"></script>
-	<script type="text/javascript" src="Js/Login.js"></script>
 </html>
