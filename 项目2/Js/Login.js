@@ -50,14 +50,23 @@ $(function() {
 	}); */
 	
 	
+	//ajax判断用户名和密码是否正确
 	$(".d_l").click(function(){
 		$.ajax({
-			type:"get",
-			url:"ajax/json.json",
-			dateType;"JSON",
+			type:"get",                      //提交方式
+			url:"ajax/json.json",                //地址
+			dateType:"JSON",                         //返回的值类型
 			success:function(resute){
 				var yhm=resute[1].yhm;
-				
+				var mm=resute[2].mm;
+				if(yhm!=$("#em_hm").val()||mm!=$("#password").val()){
+					alert("用户名或者密码不正确");
+				}else{
+					window.location.href="YOUHUO.html";
+				}
+			},
+			error:function(){
+				alert("出现错误!");
 			}
 			
 		});

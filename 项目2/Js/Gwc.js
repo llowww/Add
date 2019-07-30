@@ -81,18 +81,9 @@ $(function() {
 		zoja();
 	});
 
-
-     $(".checkbox").click(function(){
-		 $(".q_jis").toggleClass("jis_ys");
-	 }) 
-	 
-	  $(".checkbox3").click(function(){
-	 		 $(".q_jis").toggleClass("jis_ys");
-	 }) 
-	 
-	   $(".checkbox4").click(function(){
-	 		 $(".q_jis").toggleClass("jis_ys");
-	 }) 
+	 $(".checkbox3").click(function(){
+		 $(".q_jis").addClass("jis_ys");
+	 })
 
 
 
