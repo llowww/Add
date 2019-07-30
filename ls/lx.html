@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<ul>
+			<li>
+			<img src="img/adver01.jpg" width="100px" height="100px" id="sct">
+			<p><input type="button" value="删除我吧" onclick="sc()"></p>
+			</li>
+			<li>
+				<img src="img/adver02.jpg" width="100px" height="100px" id="cht"> 
+				<p><input type="button" value="换换我吧" onclick="ch()"></p>
+			</li>
+		</ul>
+		<script type="text/javascript">
+			function sc(){
+				var sct=document.getElementById("sct");
+				sct.parentNode.removeChild(sct);       //找到tp父节点,删除父节点里面的子节点, 并且指点是哪一个子节点
+			}
+			
+			function ch(){
+				var xin=document.getElementById("cht");
+				
+				xin.setAttribute("src","img/adver03.jpg")
+				
+				
+			}
+		</script>
+	</body>
+</html>
