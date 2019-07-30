@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>天气预报</title>
+		<link rel="stylesheet" href="Css/global.css" type="text/css">
+		<link rel="stylesheet" href="Css/xm.css" type="text/css">
+	</head>
+	<script src="Js/jquery-1.12.4.js"></script>
+	<script src="Js/js.js"></script>
+
+	<body>
+		<div class="main">
+			<!-- 头部 -->
+			<div class="shou">
+				<div class="shang">
+					<div class="shoul">
+						<a name="shouye"></a>
+						<a href="#">首页</a>
+						<a href="#">预报</a>
+						<a href="#">雷达</a>
+						<a href="#">云图</a>
+						<a href="#">临近预报</a>
+						<a href="#">专业产品</a>
+						<a href="#">资讯</a>
+						<a href="#">生活</a>
+						<a href="#">交通</a>
+						<a href="#">产创平台</a>
+						<a href="#">湖南站</a>
+						<span class="gduo">更多
+							<div class="gduonr">
+								<div class="nr_1">
+									<a href="#">预警</a>
+									<a href="#">台风路径</a>
+									<a href="#">空间天气</a>
+									<a href="#">图片</a>
+									<a href="#">视频</a>
+									<a href="#">专题</a>
+									<a href="#">环境</a>
+									<a href="#">旅游</a>
+									<a href="#">高尔夫</a>
+									<a href="#">滑雪</a>
+									<a href="#">航空</a>
+									<a href="#">一带一路</a>
+								</div>
+								<div class="nr_2">
+									<a href="#">保险</a>
+									<a href="#">水利</a>
+									<a href="#">农业•病虫害</a>
+									<a href="#">科普</a>
+									<a href="#">减灾</a>
+									<a href="#">生态</a>
+									<a href="#">视频云平台</a>
+									<a href="#">省级站</a>
+									<a href="#">社区</a>
+								</div>
+							</div>
+						</span>
+					</div>
+
+
+					<div class="shour">
+						<ul>
+							<li><a href="#">长沙</a></li>
+							<li><a href="#"><img src="image/tp_2.gif" style="width: 25px; height: 20px;"></a></li>
+							<li><img src="image/tp_3.gif" style="width: 25px; height: 20px;"></a></li>
+							<li><a href="#">33℃/25℃/</a></li>
+							<li><a href="#"><img src="image/tp_5.gif" style="width: 10px; height:10px;"></a></li>
+							<li><img src="image/tp_4.gif" style="width: 20px; height: 20px;"></li>
+							<li><a href="Xm2.html">登录</a></li>
+							<li><a href="#">注册</a></li>	
+						</ul>
+					</div>
+				</div>
+
+				<div class="xia">
+					<div class="xiaz">
+						<a href="#"><img src="image/tp_6.gif" style="width: 120px; height: 50px;"></a>
+						<a href="#" class="ybao">预报</a>
+					</div>
+
+					<div class="xiay">
+						<input type="search " placeholder="输入城市﹑乡镇﹑街道﹑景点名称 查天气" class="ssk">
+						<a href="#"><img src="image/tp_7.gif" style="width:35; height: 20px;"></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- 中间 -->
+			<div class="zb">
+				<!-- 中间左部分 -->
+				<div class="zbl">
+					<div class="tqxs">
+						<div class="tqcs">
+							<a href="#">全国</a>
+							<span>></span>
+							<a href="#">湖南</a>
+							<span>></span>
+							<a href="#">长沙</a>
+							<span>></span>
+							<a href="#">城区</a>
+						</div>
+						<div class="sj">
+							07:30更新
+							<span>|</span>
+							数据来源 中央气象台
+						</div>
+						<div class="qxrq">
+							<ul>
+								<li class="rq"><a href="#">今天</a></li>
+								<li class="rq"><a href="#">7天</a></li>
+								<li class="rq"><a href="#">8-15天</a></li>
+								<li class="rq"><a href="#">40天<img src="image/tp_9.gif" style="width:17px; height: 10px; position: absolute; right: 160px;"></a></li>
+								<li class="rq"><a href="#">雷达图</a></li>
+
+							</ul>
+						</div>
+
+						<div class="qxtu">
+							<ul>
+								<li class="qxtu_yes"><img src="image/tp_10.gif"></li>
+								<li class="qxtu_no"><img src="image/tp_11.gif"></li>
+								<li class="qxtu_no"><img src="image/tp_12.gif"></li>
+								<li class="qxtu_no"><img src="image/tp_13.gif"></li>
+								<li class="qxtu_no"><img src="image/tp_14.gif"></li>
+								<li class="qxtu_no"><img src="image/tp_15.gif"></li>
+								<li class="qxtu_no"><img src="image/tp_16.gif"></li>
+							</ul>
+
+							<div class="ybzs">
+								<span class="on">分时段预报</span>
+								<span class="off">生活指数</span>
+								<span class="ybwz">蓝天预报</span>
+								<img src="image/tp_17.gif" class="ybzstp">
+							</div>
+
+						</div>
+
+					</div>
+					<div>
+						<img src="image/tp_18.gif" width="730px" height="280px">
+					</div>
+
+					<div class="gdtb">
+						<ul>
+							<li><a href="#"><img src="image/tp_19.gif" width="40px" height="40px"></a></li>
+							<li><a href="#"><img src="image/tp_20.gif" width="40px" height="40px"></a></li>
+							<li><a href="#shouye"><img src="image/tp_21.gif" width="40px" height="40px"></a></li>
+						</ul>
+					</div>
+
+					<div class="ggao">
+						<div class="gg1">
+							<ul>
+								<li><a href="#"><img src="image/tp_24.gif"></a></li>
+								<li class="str"><a href="#">html5编程</a></li>
+							</ul>
+						</div>
+						<div class="gg1">
+							<ul>
+								<li><a href="#"><img src="image/tp_25.gif"></a></li>
+								<li class="str"><a href="#">显卡排行榜</a></li>
+							</ul>
+						</div>
+						<div class="gg1">
+							<ul>
+								<li><a href="#"><img src="image/tp_26.gif"></a></li>
+								<li class="str"><a href="#">激光切割器</a></li>
+							</ul>
+						</div>
+						<div class="gg1">
+							<ul>
+								<li><a href="#"><img src="image/tp_27.gif"></a></li>
+								<li class="str"><a href="#">液压升降平台</a></li>
+							</ul>
+						</div>
+						<div class="gg1">
+							<ul>
+								<li><a href="#"><img src="image/tp_28.gif"></a></li>
+								<li class="str"><a href="#">设计自己的签名</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="tqzk">
+						<div class="zkwzl">
+							<span>整点天气状况</span>
+						</div>
+						<div class="zkwzr">
+							<ul>
+								<li class="r_no" id="r1">空气质量</li>
+								<li><img src="image/tp_29.gif" width="1.5px" height="20px"></li>
+								<li class="r_no">温度</li>
+								<li><img src="image/tp_29.gif" width="1.5px" height="20px"></li>
+								<li class="r_no">相对湿度</</li> 
+								<li><img src="image/tp_29.gif" width="1.5px" height="20px"></li>
+								<li class="r_no">降水量</li>
+								<li><img src="image/tp_29.gif" width="1.5px" height="20px"></li>
+								<li class="r_no">风力风向</li>
+							</ul>
+						</div>
+
+						<div class="zkzztu">
+							<img src="image/tp_30.gif" width="710px" height="280px">
+							<p>空气质量指数：简称AQI，是定量描述空气质量状况的无量纲指数。（数据由生态环境部提供）</p>
+							<img src="image/tp_32.gif" width="710px" height="34px">
+						</div>
+					</div>
+
+					<div class="tqzx">
+						<div class="zxbt">
+							<a href="#">天气资讯</a>
+							<img src="image/tp_22.gif" width="20px" height="20px">
+						</div>
+
+						<div class="zxtp">
+							<dl class="zx1">
+								<dt>
+									<a href="#"><img src="image/tp_35.gif" width="120px" height="77px"></a>
+								</dt>
+								<dd>
+									<a href="#">内蒙古雨水缓解旱情 今天炎热天气向东转移</a>
+									<span>2019-06-19 10:23</span>
+								</dd>
+							</dl>
+
+							<dl class="zx2">
+								<dt><a href="#"><img src="image/tp_36.gif" width="120px" height="77px"></a></dt>
+								<dd><a href="#">今明天宁夏部分地区有大到暴雨 需警惕地震灾害</a>
+									<span>2019-06-19 09:58</span></dd>
+							</dl>
+
+							<dl class="zx3">
+								<dt><a href="#"><img src="image/tp_37.gif" width="120px" height="77px"></a></dt>
+								<dd><a href="#">辽宁丹东绿江村:东北的"香格里拉"美爆了</a>
+									<span>2019-06-19 09:58</span></dd>
+							</dl>
+
+							<dl class="zx4">
+								<dt><a href="#"><img src="image/tp_38.gif" width="120px" height="77px"></a></dt>
+								<dd><a href="#">周末北京35°C炎热升级</a>
+									<span>2019-06-22 09:05</span></dd>
+							</dl>
+
+							<dl class="zx5">
+								<dt><a href="#"><img src="image/tp_39.gif" width="120px" height="77px"></a></dt>
+								<dd><a href="#">罕见!甘肃酒泉一天下了一年的雨</a>
+									<span>2019-06-2 17:15</span></dd>
+							</dl>
+
+							<dl class="zx6">
+								<dt><a href="#"><img src="image/tp_40.gif" width="120px" height="77px"></a></dt>
+								<dd><a href="#">山东周末 "热" 情高涨 35°C以上高温范围扩大</a>
+									<span>2019-06-22 07:21</span></dd>
+							</dl>
+
+							<dl class="zx7">
+								<dt><a href="#"><img src="image/tp_41.gif" width="120px" height="77px"></a></dt>
+								<dd><a href="#">夏至日云南墨江"立竿无影"</a>
+									<span>2019-06-21 16:50</span></dd>
+							</dl>
+
+
+							<dl class="zx8">
+								<dt><a href="#"><img src="image/tp_42.gif" width="120px" height="77px"></a></dt>
+								<dd><a href="#">山洪灾害预警 福建江西局地发生山洪灾害可能性大</a>
+									<span>2019-06-21 17:32</span></dd>
+							</dl>
+
+						</div>
+					</div>
+
+
+					<div class="dqjd">
+						<div class="dq_jd">
+							<span class="dq">周边地区</span>
+							<span class="gan">|</span>
+							<span class="jd">周边景点</span>
+							<span class="dqjd_sj">2019-06-19 07:30更新</span>
+						</div>
+
+						<div class="dq_xz">
+							<ul>
+								<li class="qxz">
+									<a href="#">
+										<span>湘阴</span>
+										<p>
+											<big><img src="image/tp_43.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>31/25°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>岳阳</span>
+										<p>
+											<big><img src="image/tp_43.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>29/25°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>宜春</span>
+										<p>
+											<big><img src="image/tp_45.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>34/26°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>萍乡</span>
+										<p>
+											<big><img src="image/tp_43.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>35/27°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>娄底</span>
+										<p>
+											<big><img src="image/tp_43.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>31/24°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>益阳</span>
+										<p>
+											<big><img src="image/tp_46.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>31/26°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>常德</span>
+										<p>
+											<big><img src="image/tp_43.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>31/23°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>湘江新区</span>
+										<p>
+											<big><img src="image/tp_43.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>33/26°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>新余</span>
+										<p>
+											<big><img src="image/tp_45.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>34/25°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>湘潭</span>
+										<p>
+											<big><img src="image/tp_47.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_48.gif" width="30px" height="25px"></big>
+										</p>
+										<i>35/25°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>韶山</span>
+										<p>
+											<big><img src="image/tp_47.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_48.gif" width="30px" height="25px"></big>
+										</p>
+										<i>34/25°C</i>
+									</a>
+								</li>
+								<li class="qxz">
+									<a href="#">
+										<span>株洲</span>
+										<p>
+											<big><img src="image/tp_43.gif" width="30px" height="25px"></big>
+											<em>/</em>
+											<big><img src="image/tp_44.gif" width="30px" height="25px"></big>
+										</p>
+										<i>34/27°C</i>
+									</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+
+					<div class="tqsj">
+						<div class="sjbt">
+							<a href="#" class="bt">重大天气事件</a>
+							<img src="image/tp_22.gif" width="20px" height="20px">
+						</div>
+
+						<div class="sjian">
+							<ul>
+								<li class="o_n">
+									<a href="#">
+										<p class="o_nrq">6月22日</p>
+										<div class="twz">
+											<img src="image/tp_53.gif">
+											<span class="twz_bt">
+												周末南方暴雨持续 北方高温范围扩大<br />
+												<p class="twz_nr">预计本周末(22-23日)南方强降雨过程仍将持续,
+													西南地区东部﹑江南﹑华南等地将自北向南先后出现大到暴雨天气,
+													部分地区有大暴雨。</p>
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="o_n">
+									<a href="#">
+										<p class="o_nrq">6月21日</p>
+										<div class="twz">
+											<img src="image/tp_53.gif">
+											<span class="twz_bt">
+												南方暴雨还将持续一周 华北黄淮高温依旧<br />
+												<p class="twz_nr">
+													南方强降雨正在展开,预计明天(21-22日)降雨范围和强度均有明显增加,贵州,江南,
+													华南北部将先后出现大到暴雨,局地大暴雨。
+												</p>
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="o_n">
+									<a href="#">
+										<p class="o_nrq">6月18日</p>
+										<div class="twz">
+											<img src="image/tp_53.gif">
+											<span class="twz_bt">
+												南方"暴雨周"再度开启 本周将遭遇三轮强降雨<br />
+												<p class="twz_nr">上周末,南方强降雨在经历了短暂减弱的双休后,本周迅速增多增强。
+													17日-19日,20日-22日,23日至下周前段,南方还将遭遇三轮无
+												</p>
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="o_n">
+									<a href="#">
+										<p class="o_nrq">6月16日</p>
+										<div class="twz">
+											<img src="image/tp_53.gif">
+											<span class="twz_bt">
+												华北黄淮等地高温"炙烤" 南方局地大暴雨<br />
+												<p class="twz_nr">今天起,强降雨的重心将向东移,
+													江淮﹑江南北部一带将出现较强降雨。
+													华北南部﹑黄淮地区,今天至下周初,仍将遭遇高温炙烤。
+												</p>
+											</span>
+										</div>
+									</a>
+								</li>
+								<li class="o_n">
+									<a href="#">
+										<p class="o_nrq">6月15日</p>
+										<div class="twz">
+											<img src="image/tp_53.gif">
+											<span class="twz_bt">
+												周末较强降雨转移至西南 中东部暑热加重<br />
+												<p class="twz_nr">预计本周末(15-16日)江南﹑华南大部地区将迎来降雨间歇期,
+													西南等地将遭遇较强降雨,其中今天重庆﹑贵州局地有暴雨。</p>
+											</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+
+							<a href="#" class="g_duo">查看更多>></a>
+						</div>
+					</div>
+
+				</div>
+
+
+				<!-- 中间右部分 -->
+				<div class="zbr">
+					<div class="jctj">
+						<div class="jctjwz">
+							<a href="#">精彩图集</a>
+							<img src="image/tp_22.gif" class="tp_22">
+						</div>
+
+						<div class="slideShow">
+							<ul>
+								<li><a href="#"><img src="image/bg10.jpg" width="250px" height="190px"></a></li>
+								<li><a href="#"><img src="image/bg1.jpg" width="250px" height="190px"></a></li>
+								<li><a href="#"><img src="image/bg17.jpg" width="250px" height="190px"></a></li>
+								<li><a href="#"><img src="image/bg14.jpg" width="250px" height="190px"></a></li>
+								<li><a href="#"><img src="image/bg16.jpg" width="250px" height="190px"></a></li>
+							</ul>
+							<div class="showNav">
+								<span class="active"></span><span></span><span></span> <span></span>
+							</div>
+						</div>
+
+						<div class="jctjlb">
+							<ul>
+								<li><a href="#">一组图看全国高考天气表情</a></li>
+								<li><a href="#">积水淹没轿车 司机满脸落寞车顶等救援</a></li>
+								<li><a href="#">独生子女新政,满足三点要求,可领2400</a></li>
+								<li><a href="#">新闻联播出现百亿影帝吴京雪山拾荒</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="tqsp">
+						<div class="spwz">
+							<a href="#">天气视频</a>
+							<img src="image/tp_22.gif" class="tp_22">
+						</div>
+
+						<div>
+							<a href="#"><img src="image/tp_33.gif" width="250px" height="150px"></a>
+						</div>
+
+						<div class="tqlb">
+							<ul>
+								<li><a href="#">一组图看全国高考天气表情</a></li>
+								<li><a href="#">积水淹没轿车 司机满脸落寞车顶等救援</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="rd">
+						<div class="rdbt">
+							<span class="bt">热点</span>
+							<ul>
+								<li class="bt_no" id="bt1">文章</li>
+								<li class="bt_no">图片</li>
+								<li class="bt_no">视频</li>
+							</ul>
+						</div>
+
+						<div class="rdxw">
+							<ul class="shuz">
+								<li class="shuz_yes">1</li>
+								<li class="shuz_yes">2</li>
+								<li class="shuz_yes">3</li>
+								<li>4</li>
+								<li>5</li>
+							</ul>
+							<ul class="xwbt">
+								<li><a href="#">痛心!四川宜宾地震救援进行中 震</a></li>
+								<li><a href="#">南方"暴风雨"再度开启 本周将遭遇</a></li>
+								<li><a href="#">南方强降雨"车轮战" 启幕 华北黄淮</a></li>
+								<li><a href="#">王健林:房产将不吃香,这3给行业</a></li>
+								<li><a href="#">宁泽涛26岁生日这天退役了</a></li>
+							</ul>
+
+
+
+						</div>
+					</div>
+
+					<div class="shly">
+						<div class="lybt">
+							<a href="#">生活旅游</a>
+							<img src="image/tp_22.gif" class="tp_22">
+						</div>
+
+						<div>
+							<img src="image/tp_49.gif" width="250px" height="200px">
+						</div>
+
+						<div class="lyxw">
+							<ul>
+								<li><a href="#">京城赏秋 "末班车"</a></li>
+								<li><a href="#">去北海公园看日出 水中倒映着美丽的白塔</a></li>
+								<li><a href="#">隐藏毒素最多的9种食物,为了健康看看吧</a></li>
+								<li><a href="#">薛之谦伦敦演唱会捆绑周杰伦卖票</a></li>
+							</ul>
+						</div>
+
+
+					</div>
+
+					<div class="tj">
+						<div class="tjwz">
+							<p>景点推荐</p>
+						</div>
+
+						<h5 class="tj_xz">
+							<span class="xz1">景区</span>
+							<span class="xz2">天气</span>
+							<span class="xz3">气温</span>
+							<span class="xz4">旅游指数</span>
+						</h5>
+
+						<ul class="tj_ul">
+							<li class="tj_lj">
+								<a href="#">
+									<span class="lj1">三亚</span>
+									<span class="lj2">多云转雷阵雨</span>
+									<span class="lj3">35/28°C</span>
+									<span class="lj4">一般</span>
+								</a>
+							</li>
+							<li class="tj_lj">
+								<a href="#">
+									<span class="lj1">九寨沟</span>
+									<span class="lj2">阴转阵雨</span>
+									<span class="lj3">24/17°C</span>
+									<span class="lj4">适宜</span>
+								</a>
+							</li>
+							<li class="tj_lj">
+								<a href="#">
+									<span class="lj1">大理</span>
+									<span class="lj2">阵雨转多云</span>
+									<span class="lj3">29/18°C</span>
+									<span class="lj4">适宜</span>
+								</a>
+							</li>
+							<li class="tj_lj">
+								<a href="#">
+									<span class="lj1">张家界</span>
+									<span class="lj2">阵雨转多云</span>
+									<span class="lj3">33/22°C</span>
+									<span class="lj4">较适宜</span>
+								</a>
+							</li>
+							<li class="tj_lj">
+								<a href="#">
+									<span class="lj1">桂林</span>
+									<span class="lj2">阵雨转多云</span>
+									<span class="lj3">34/27°C</span>
+									<span class="lj4">较适宜</span>
+								</a>
+							</li>
+							<li class="tj_lj">
+								<a href="#">
+									<span class="lj1">青岛</span>
+									<span class="lj2">多云</span>
+									<span class="lj3">23/20°C</span>
+									<span class="lj4">适宜</span>
+								</a>
+							</li>
+
+						</ul>
+
+					</div>
+
+					<div class="qxcp">
+						<div class="qxwz">
+							<a href="#">气象产品</a>
+							<img src="image/tp_22.gif" class="tp_22">
+						</div>
+
+						<div class="cp">
+							<a href="#">未来三天全国天气预报</a>
+							<a href="#">全国最高气温分布</a>
+							<a href="#">全国降水实况</a>
+						</div>
+					</div>
+
+
+					<div class="qxfw">
+						<div class="fwbt">
+							<p>气象服务</p>
+						</div>
+
+						<div class="fwwz">
+							<a href="#">气象服务热线</a>
+							<p>拨打400-6000-121进行气象服务资讯﹑建议﹑合作与投诉</p>
+							<a href="#">天气预报电话查询</a>
+							<p>拨打12121或96121进行天气预报查询</p>7.
+							<a href="#">手机查询</a>
+							<p>随时随地通过手机登录中国天气WAP版查看各地天气资讯</p>
+							<img src="image/tp_50.gif" width="90px" height="120px">
+							<img src="image/tp_51.gif" width="90px" height="120px">
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- 尾部 -->
+			<div class="wbu">
+				<div class="wbu1">
+					<dl class="fw">
+						<dt>
+							<h2>网站服务</h2>
+						</dt>
+						<dd>
+							<p>
+								<a href="#">关于我们</a>
+								<a href="#">联系我们</a>
+								<a href="#">帮助</a>
+								<a href="#">人员招聘</a>
+								<a href="#">客服中心</a>
+								<a href="#">版权声明</a>
+								<a href="#">律师</a>
+								<a href="#">网站地图</a>
+							</p>
+						</dd>
+					</dl>
+
+					<dl class="yx">
+
+						<dt>
+							<h2>营销中心</h2>
+						</dt>
+						<dd>
+							<p>
+								<a href="#">商务合作</a>
+								<a href="#">广告服务</a>
+							</p>
+						</dd>
+					</dl>
+
+					<dl class="xglj">
+						<dt>
+							<h2>相关链接</h2>
+						</dt>
+						<dd>
+							<p>
+								<a href="#">中国气象局</a>
+								<a href="#">公共气象服务中心</a>
+								<a href="#">中国气象服务协会</a>
+								<a href="#" class="yd">中国气象频道</a>
+								<a href="#" class="yd2">中国旅游天气网</a>
+								<a href="#" class="yd3">中国兴农网</a>
+							</p>
+						</dd>
+					</dl>
+				</div>
+
+				<div class="wbu2">
+					<p>
+						<span class="wbu2_1">客服邮箱:
+							<a href="#">service@weather.com.cn</a>
+						</span>
+						<span class="wbu2_2">广告服务:
+							<b>010-58991910</b>
+						</span>
+						<span><a href="#">京ICP证010385号</a>
+							京公网安备11041400134号
+						</span>
+					</p>
+
+					<p>
+						<span class="wbu2_3">客服热线:
+							<a href="#">400-6000-121</a>
+						</span>
+						<span class="wbu2_4">商务合作:
+							<b>010-58991806</b>
+							<b style="display: block; margin-left:58px;">010-58991938</b>
+						</span>
+						<span>
+							增值电信业务经营许可证B2-20050053
+						</span>
+
+					</p>
+					<a href="#"><img src="image/tp_54.gif" width="100px" style="position: absolute; left: 870px; top: 20px;"></a>
+				</div>
+
+				<div class="wbu3">
+					中国天气网版权所有，未经书面授权禁止使用
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Copyright©<a href="#">中国气象局公共气象服务中心 </a>
+					All Rights Reserved (2008-2019)
+
+				</div>
+
+
+
+
+			</div>
+		</div>
+	</body>
+</html>
